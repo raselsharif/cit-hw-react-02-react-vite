@@ -1,5 +1,6 @@
 
 import './App.css'
+import './Responsive.css'
 import RootLayout from './assets/layouts/RootLayout'
 import Banner from './assets/sections/Banner'
 import Blog from './assets/sections/Blog'

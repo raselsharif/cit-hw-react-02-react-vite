@@ -1,0 +1,240 @@
+/* =====  small device ===== */
+@media screen and (max-width:576px) {
+    /* ==============  header section start here =========== */
+    header {
+        padding: 10px 0;
+        border-bottom: 3px solid #FFB800;
+    }
+    .header_wrapper {
+        display:block;
+    } 
+    
+    /* ==============  header section end here =========== */
+    
+    
+    /* ==============  nav section start here =========== */
+    nav {
+        background: #F40404;
+        padding: 27px 0;
+    }
+    
+    .nav_wrapper {
+        flex-direction: column;
+    }
+    
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* ==============  nav section end here =========== */
+    
+    
+    /* ==============  banner section start here =========== */
+    #banner {
+        padding: 50px 0;
+    }
+    
+    .banner_text {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .banner_text h3 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    
+    /* ==============  banner section end here =========== */
+    
+    
+    /* ==============  supplier section start here =========== */
+    
+    .supplier_text {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .supplier_text h2 {
+        line-height: 52px;
+        font-size: 38px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .supplier_text p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* ==============  supplier section end here =========== */
+    
+    
+    /* ==============  gallery section start here =========== */
+    #gallery {
+        background: #fff;
+        margin: 20px 0;
+    }
+    .gallery_wrapper {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .gallery_img {
+        width: 100%;
+    }
+    
+    /* ==============  gallery section end here =========== */
+    
+    
+    /* ==============  service section start here =========== */
+    #service {
+        background: #fff;
+        padding: 50px 0;
+    }
+    
+    .service_main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .service_text {
+        width: 1000%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .service_text h2 {
+        width: 100%;
+        font-size: 44px;
+        line-height: 56px;
+    }
+    
+    .service_text p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .service_img {
+        margin-top: 20px;
+        width: 100%;
+        padding: 50px 10px 50px 10px;
+    }
+    
+    /* ==============  service section end here =========== */
+    
+    
+    /* ==============  About company section start here =========== */
+    #company {
+        background: #F0F0F0;
+        padding: 50px 0;
+    } 
+    .company_text {
+        width: 415px;
+        padding: 50px 20px;
+        background: #F40404;
+        height: fit-content;
+    }
+    
+    .company_text h3 {
+        line-height: 44px;
+    }
+    
+    .company_img {
+        Width: 100%;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* ==============  About company section end here =========== */
+    
+    
+    /* ==============  sponsor section start here =========== */
+    #sponsor {
+        padding: 50px 0;
+    }
+    
+    .sponsor_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+    
+    /* ==============  sponsor section end here =========== */
+    
+    
+    /* ==============  blog section start here =========== */
+    #blog {
+        background: #F0F0F0;
+        padding: 25px 0;
+    }
+    
+    .blog_wrapper {
+        gap: 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* ==============  blog section end here =========== */
+    
+    /* ==============  branch section start here =========== */
+    #branch {
+        padding: 27px 0;
+        border-bottom: 3px solid #FFB800;
+    }
+    .branch_wrapper {
+        flex-direction: column;
+    }
+    
+    .branch_text h3 {
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    /* ==============  branch section end here =========== */
+    #map {
+        margin: 10px 0;
+    }
+    
+    /* ==============  footer section start here =========== */
+    #footer {
+        padding: 50px 0 50px 0;
+    }
+    .footer_wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .footer_contact {
+        max-width: 334px;
+    }
+    
+    
+    .footer_company {
+        max-width: 173px;
+    }
+    
+    .others {
+        max-width: 173px;
+    }
+    
+    .certificate {
+        max-width: 225px;
+    }
+    /* ==============  footer section end here =========== */
+    
+    /* ==============  copyright section start here =========== */
+    #copyright {
+        padding: 23px 0;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    /* ==============  copyright section end here =========== */
+}
