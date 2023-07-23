@@ -1,7 +1,9 @@
 import React from 'react'
+import Sponsors from './Sponsors'
 
 function Company() {
     return (
+        <>
         <section id="company">
             <div class="container">
                 <div class="company_wrapper">
@@ -18,6 +20,8 @@ function Company() {
                 </div>
             </div>
         </section>
+        <Sponsors/>
+        </>
     )
 }
 

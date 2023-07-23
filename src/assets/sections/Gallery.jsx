@@ -1,7 +1,10 @@
 import React from 'react'
+import Supplier from './Supplier'
 
 function Gallery() {
   return (
+    <>
+    <Supplier/>
     <section id="gallery">
     <div class="gallery_wrapper">
         <div class="gallery_img">
@@ -18,6 +21,7 @@ function Gallery() {
         </div>
     </div>
 </section>
+    </>
   )
 }
 

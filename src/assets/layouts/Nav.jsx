@@ -55,8 +55,8 @@ function Nav() {
                                     </NavLink>
                                 </li>
                                 <li>
-                                <NavLink to="Blog">
-                                        Blog
+                                <NavLink to="Company">
+                                        about
                                     </NavLink>
                                 </li>
                                 <li>
@@ -76,7 +76,9 @@ function Nav() {
                                 </li>
                             </ul>
                             <div className="menu_link">
-                                <a href="#">contact</a>
+                                <NavLink to="Map"> 
+                                    Contact
+                                </NavLink>
                             </div>
                         </div>
                     </div>

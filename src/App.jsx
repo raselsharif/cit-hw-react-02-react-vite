@@ -29,12 +29,9 @@ function App() {
           <Route path='/' element={<Banner />} />
           <Route path='/Gallery' element={<Gallery />} />
           <Route path='/Blog' element={<Blog />} />
-          <Route path='/Branches' element={<Branches />} />
           <Route path='/Company' element={<Company />} />
           <Route path='/Map' element={<Map />} />
           <Route path='/Service' element={<Service />} />
-          <Route path='/Sponsors' element={<Sponsors />} />
-          <Route path='/Supplier' element={<Supplier />} />
         </Route>
       </>
     )
