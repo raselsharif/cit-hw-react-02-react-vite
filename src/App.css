@@ -207,6 +207,7 @@ nav {
 /* ==============  gallery section start here =========== */
 #gallery {
     background: #fff;
+    margin: 20px 0;
 }
 
 .gallery_wrapper {
@@ -371,7 +372,7 @@ nav {
 /* ==============  blog section start here =========== */
 #blog {
     background: #F0F0F0;
-    padding: 110px 0;
+    padding: 50px 0;
 }
 
 .blog_wrapper {
@@ -446,10 +447,12 @@ nav {
     padding: 47px 0;
     border-bottom: 5px solid #FFB800;
 }
-.menu_link a:hover{
+
+.menu_link a:hover {
     background: #fff;
     color: #F40404;
 }
+
 .branch_wrapper {
     display: flex;
     justify-content: space-between;
@@ -463,6 +466,12 @@ nav {
 }
 
 /* ==============  branch section end here =========== */
+#map {
+    background: rgb(145, 141, 141);
+    height: 450px;
+    width: 100%;
+    margin: 20px 0;
+}
 
 /* ==============  footer section start here =========== */
 #footer {
@@ -544,9 +553,7 @@ nav {
 .certificate {
     width: 225px;
 }
-.certificate img:nth-child(1){
-    margin-right: 10px;
-}
+
 .footer_heading {
     text-transform: capitalize;
     font-size: 16px;
