@@ -268,7 +268,7 @@ nav {
 }
 
 .service_img {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(service1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../public/service1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -281,14 +281,14 @@ nav {
 }
 
 .service_img_two {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(service2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../public/service2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .service_img_three {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(service3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../public/service3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
