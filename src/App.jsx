@@ -37,18 +37,6 @@ function App() {
       <RouterProvider
         router={router}
       />
-      {/* <Nav />
-      <Banner />
-      <Supplier />
-      <Gallery />
-      <Service />
-      <Company />
-      <Sponsors />
-      <Blog />
-      <Map/>
-      <Branches />
-      <Footer />
-      <Copyright /> */}
     </>
   )
 }
