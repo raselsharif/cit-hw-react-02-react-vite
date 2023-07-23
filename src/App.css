@@ -114,6 +114,7 @@ nav {
     font-weight: 600;
     font-size: 16px;
     transition: all linear 0.3s;
+    border-bottom: 2px solid transparent;
 }
 
 .menu>ul>li>a:hover {
@@ -134,7 +135,10 @@ nav {
     color: #fff;
     transition: all linear 0.3s;
 }
-
+.menu ul .active{
+    opacity: 0.8;
+    border-bottom: 2px solid white;
+}
 /* ==============  nav section end here =========== */
 
 

@@ -1,18 +1,12 @@
 
 import './App.css'
-import Copyright from './assets/layouts/Copyright'
-import Footer from './assets/layouts/Footer'
-import Nav from './assets/layouts/Nav'
 import RootLayout from './assets/layouts/RootLayout'
 import Banner from './assets/sections/Banner'
 import Blog from './assets/sections/Blog'
-import Branches from './assets/sections/Branches'
 import Company from './assets/sections/Company'
 import Gallery from './assets/sections/Gallery'
 import Map from './assets/sections/Map'
 import Service from './assets/sections/Service'
-import Sponsors from './assets/sections/Sponsors'
-import Supplier from './assets/sections/Supplier'
 
 import {
   createRoutesFromElements,
@@ -27,11 +21,11 @@ function App() {
       <>
         <Route element={<RootLayout />}>
           <Route path='/' element={<Banner />} />
-          <Route path='/Gallery' element={<Gallery />} />
-          <Route path='/Blog' element={<Blog />} />
-          <Route path='/Company' element={<Company />} />
-          <Route path='/Map' element={<Map />} />
-          <Route path='/Service' element={<Service />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/company' element={<Company />} />
+          <Route path='/map' element={<Map />} />
+          <Route path='/service' element={<Service />} />
         </Route>
       </>
     )

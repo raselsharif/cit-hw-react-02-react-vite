@@ -55,28 +55,28 @@ function Nav() {
                                     </NavLink>
                                 </li>
                                 <li>
-                                <NavLink to="Company">
+                                <NavLink to="company">
                                         about
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="Service">
+                                    <NavLink to="service">
                                         service
                                     </NavLink>
                                 </li>
                                 <li>
-                                <NavLink to="Gallery">
+                                <NavLink to="gallery">
                                         gallery
                                     </NavLink>
                                 </li>
                                 <li>
-                                <NavLink to="Blog">
+                                <NavLink to="blog">
                                         Blog
                                     </NavLink>
                                 </li>
                             </ul>
                             <div className="menu_link">
-                                <NavLink to="Map"> 
+                                <NavLink to="map"> 
                                     Contact
                                 </NavLink>
                             </div>
