@@ -337,7 +337,7 @@ nav {
 .company_img {
     height: 361px;
     Width: 729px;
-    background: url(about1.jpg);
+    background: url(../public/about1.jpg);
     padding: 168px 282px 142px 282px;
     background-repeat: no-repeat;
     background-size: cover;
