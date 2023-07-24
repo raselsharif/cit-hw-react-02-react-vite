@@ -1,8 +1,10 @@
-import React, { Children } from 'react'
+import React from 'react'
 
-function My_div() {
+function My_div({ DivCLass, DivID, children }) {
   return (
-    <div>{Children}</div>
+    <div className={DivCLass} id={DivID}>
+      {children}
+    </div>
   )
 }
 
