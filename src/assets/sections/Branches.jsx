@@ -1,20 +1,23 @@
 import React from 'react'
+import My_section from '../components/My_section'
+import My_div from '../components/My_div'
+import H3 from '../components/H3'
 
 function Branches() {
-  return (
-    <section id="branch">
-    <div class="container">
-        <div class="branch_wrapper">
-            <div class="branch_text">
-                <h3>Want to join as member branch in your area?</h3>
-            </div>
-            <div class="menu_link">
-                <a href="#">contact</a>
-            </div>
-        </div>
-    </div>
-</section>
-  )
+    return (
+        <My_section section_id="branch">
+            <My_div DivCLass="container">
+                <My_div DivCLass="branch_wrapper">
+                    <My_div DivCLass="branch_text">
+                        <H3 h3text="Want to join as member branch in your area?" />
+                    </My_div>
+                    <My_div DivCLass="menu_link">
+                        <a href="#">contact</a>
+                    </My_div>
+                </My_div>
+            </My_div>
+        </My_section>
+    )
 }
 
 export default Branches

@@ -1,26 +1,27 @@
 import React from 'react'
+import My_section from '../components/My_section'
+import My_div from '../components/My_div'
+import H3 from '../components/H3'
 import Sponsors from './Sponsors'
 
 function Company() {
     return (
         <>
-        <section id="company">
-            <div class="container">
-                <div class="company_wrapper">
-                    <div class="company_text">
-                        <h3>
-                            Learn more about our company
-                        </h3>
-                    </div>
-                    <div class="company_img">
-                        <div class="common_link">
-                            <a href="#">LEARN MORE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <Sponsors/>
+            <My_section section_id="company">
+                <My_div DivCLass="container">
+                    <My_div DivCLass="company_wrapper">
+                        <My_div DivCLass="company_text">
+                            <H3 h3text="Learn more about our company" />
+                        </My_div>
+                        <My_div DivCLass="company_img">
+                            <My_div DivCLass="common_link">
+                                <a href="#">LEARN MORE</a>
+                            </My_div>
+                        </My_div>
+                    </My_div>
+                </My_div>
+            </My_section>
+            <Sponsors />
         </>
     )
 }
