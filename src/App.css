@@ -337,7 +337,6 @@ nav {
     line-height: 54px;
     color: #fff;
 }
-
 .company_img {
     height: 361px;
     Width: 729px;
@@ -347,14 +346,12 @@ nav {
     background-size: cover;
     background-position: center;
 }
-
 .company_img .common_link a {
     display: inline-block;
     background: #fff;
     color: #F40404;
     padding: 14px 30px;
 }
-
 /* ==============  About company section end here =========== */
 
 
@@ -382,7 +379,6 @@ nav {
 .blog_wrapper {
     display: flex;
     gap: 62px;
-    flex-wrap: wrap;
 }
 
 .blog_img {

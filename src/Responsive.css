@@ -29,6 +29,7 @@
     .menu ul {
         flex-direction: column;
         gap: 20px;
+        padding-left: 0;
     }
     /* ==============  nav section end here =========== */
     
